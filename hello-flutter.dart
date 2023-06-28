@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp()));
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
       title: 'Hello World Simple',
       home: Scaffold(
         appBar: AppBar(
-          title: Text("App Bar Title'),
+          title: Text('App Bar Title'),
         ), // AppBar(
         body: Center(
           child: Text('Hello Flutter!'),
         ), // Center
       ), // Scaffold
-    ), // MaterialApp
+    ); // MaterialApp
   }
 }
